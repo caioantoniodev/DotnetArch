@@ -13,4 +13,8 @@ public abstract class Eletrodomestico
 
     public abstract void Ligar();
     public abstract void Desligar();
+    public virtual void Testar()
+    {
+        // teste do equipamento
+    }
 }
